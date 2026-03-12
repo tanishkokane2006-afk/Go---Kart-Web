@@ -30,7 +30,7 @@ export default function RegistrationForm() {
         try {
             // 1. Register with Firebase Authentication
             // If API keys aren't set, it will throw an error and we'll show it
-            const { user, error } = await registerUser(formData.email, formData.password);
+            const { error } = await registerUser(formData.email, formData.password);
 
             if (error) {
                 throw new Error(error);
@@ -40,7 +40,7 @@ export default function RegistrationForm() {
             const webhookUrl = import.meta.env.VITE_GOOGLE_SHEETS_WEBHOOK_URL;
 
             if (webhookUrl && webhookUrl !== 'your_webhook_url_here') {
-                const response = await fetch(webhookUrl, {
+                await fetch(webhookUrl, {
                     method: 'POST',
                     mode: 'no-cors', // Because Google Apps Script doesn't always handle CORS well directly here unless preflight is perfect
                     headers: {
