@@ -1,0 +1,23 @@
+[0m[0m
+[0m[4mC:\Users\HP\OneDrive\Desktop\projects FS\src\components\About.jsx[24m[0m
+[0m  [2m1:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\HP\OneDrive\Desktop\projects FS\src\components\Contact.jsx[24m[0m
+[0m  [2m1:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\HP\OneDrive\Desktop\projects FS\src\components\Features.jsx[24m[0m
+[0m  [2m1:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\HP\OneDrive\Desktop\projects FS\src\components\Hero.jsx[24m[0m
+[0m  [2m1:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\HP\OneDrive\Desktop\projects FS\src\components\Navbar.jsx[24m[0m
+[0m  [2m1:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\HP\OneDrive\Desktop\projects FS\src\components\RegistrationForm.jsx[24m[0m
+[0m   [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u             [2mno-unused-vars[22m[0m
+[0m  [2m33:21[22m  [31merror[39m  'user' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      [2mno-unused-vars[22m[0m
+[0m  [2m43:23[22m  [31merror[39m  'response' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
