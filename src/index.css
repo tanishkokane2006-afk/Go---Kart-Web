@@ -1,15 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-neon-red: #ff2a2a;
-  --color-neon-orange: #ff7b00;
-  --color-dark-bg: #0a0a0a;
-  --color-dark-surface: #121212;
-  --color-dark-card: #1e1e1e;
-  
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-heading: 'Outfit', system-ui, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root {
@@ -20,14 +11,14 @@
   body {
     background-color: var(--background);
     color: var(--foreground);
-    font-family: var(--font-sans);
+    font-family: 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
+    font-family: 'Outfit', system-ui, sans-serif;
   }
 }
 
