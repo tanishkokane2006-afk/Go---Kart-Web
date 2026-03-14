@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -20,6 +20,17 @@ export const auth = getAuth(app);
 export const registerUser = async (email, password) => {
     try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        return { user: userCredential.user, error: null };
+    } catch (error) {
+        return { user: null, error: error.message };
+    }
+};
+
+// Google Sign-In wrapper
+export const signInWithGoogle = async () => {
+    try {
+        const provider = new GoogleAuthProvider();
+        const userCredential = await signInWithPopup(auth, provider);
         return { user: userCredential.user, error: null };
     } catch (error) {
         return { user: null, error: error.message };
