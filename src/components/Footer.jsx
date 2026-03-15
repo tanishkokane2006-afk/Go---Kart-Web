@@ -31,8 +31,6 @@ export default function Footer() {
                         <ul className="space-y-4 text-sm text-gray-400">
                             <li><a href="#register" className="hover:text-neon-orange transition-colors flex items-center gap-2"><ArrowRight className="w-3 h-3" /> Register</a></li>
                             <li><a href="#register" className="hover:text-neon-orange transition-colors flex items-center gap-2"><ArrowRight className="w-3 h-3" /> Book Rides</a></li>
-                            <li><a href="https://rzp.io/l/ikc2024" target="_blank" rel="noopener noreferrer" className="hover:text-neon-orange transition-colors flex items-center gap-2"><ArrowRight className="w-3 h-3" /> Payment Link</a></li>
-                            <li><a href="https://www.spaark.in/collections/motorsport-safety-equipments" target="_blank" rel="noopener noreferrer" className="hover:text-neon-orange transition-colors flex items-center gap-2"><ArrowRight className="w-3 h-3" /> Merchandise Store</a></li>
                             <li><a href="#contact" className="hover:text-neon-orange transition-colors flex items-center gap-2"><ArrowRight className="w-3 h-3" /> Contact</a></li>
                         </ul>
                     </div>
